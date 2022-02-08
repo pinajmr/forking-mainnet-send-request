@@ -1,15 +1,7 @@
-# Basic Sample Hardhat Project
+# Send DAI
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
+In this project, you can make use of the fork-mainnet on hardhat to send ether or dai from a real account with funds, for practical uses.
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+node scripts/send-dai.js
 ```
